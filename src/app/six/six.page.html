@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title style="font-family: myfont">Take a Photo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding style="background:beige">
+  <ion-col col-6 *ngFor="let photo of photos; let id = index">
+    <ion-card class="block">
+      <ion-button block color="medium" class="deleteIcon" (click)="deletePhoto(id)">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+      <img [src]="photo" *ngIf="photo"/>
+    </ion-card>
+  </ion-col>
+<div style="text-align: center">  <ion-button block color="light" class="myfont" (click)="takePhoto()">Take Photo of your Meal</ion-button>
+</div>
+</ion-content>

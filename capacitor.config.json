@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "diet",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

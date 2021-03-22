@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;font-family: myfont ">DAY 3</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card class="myfont">
+        <img  src="../../assets/days/carb.jpg"/>
+        <ion-card-header>
+            <ion-card-title style="text-align: center ">
+                Carbohydrates Day
+            </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ul (click)="breakfast()">Breakfast</ul>
+            <ul (click)="lunch()">Lunch</ul>
+            <ul (click)="dinner()">Dinner</ul>
+        </ion-card-content>
+    </ion-card>
+
+</ion-content>

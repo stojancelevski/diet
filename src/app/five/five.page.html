@@ -1,0 +1,55 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title style="font-family: myfont">Days Page</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-card-content style="text-align: center;">
+    <div>
+        <ion-row>
+            <ion-col>
+                <ion-card class="myfont" (click)="first()">
+                    <img src="../../assets/days/first.jpg"/>
+                    Day 1 <br> Protein Day
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card class="myfont" (click)="second()">
+                    <img src="../../assets/days/second.jpg"/>
+                    Day 2 <br> Starch Day
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-card class="myfont" (click)="third()">
+                    <img src="../../assets/days/third.jpg"/>
+                    Day 3 <br> Carbohydrate Day
+                </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card class="myfont" (click)="fourth()">
+                    <img src="../../assets/days/fourth.jpg"/>
+                    Day 4 <br> Fruit Day
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <div class="myfont">
+            <ion-card-header>
+                <ion-card-title>TIPS</ion-card-title>
+            </ion-card-header>
+            <ion-card-content style="text-align: justify">
+                For all 90 days, breakfast is always FRUIT. Choices are two of the fruits from same tree such as: apples,
+                oranges, pears,
+                peaches, etc.
+                <li>only ONE banana.</li>
+                <li>A cup of beries</li>
+                <li>Hand full of dried fruit. (around 8 pieces)</li>
+            </ion-card-content>
+        </div>
+    </div>
+
+</ion-card-content>
+

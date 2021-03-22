@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;font-family: myfont ">DAY 1</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card class="myfont">
+        <img width="600px" height="270 " src="../../assets/days/first.jpeg"/>
+        <ion-card-header>
+            <ion-card-title style="text-align: center ">
+                Protein Day
+            </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ul (click)="breakfast()">Breakfast</ul>
+            <ul (click)="lunch()">Lunch</ul>
+            <ul (click)="dinner()">Dinner</ul>
+            <ul (click)="tips()">Tips</ul>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
